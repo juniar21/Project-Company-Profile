@@ -7,6 +7,10 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  container: {
+	center: true,
+	padding: "16px",
+  },
   theme: {
 	// screens:{
 	// 	xs:"300px",	

@@ -4,23 +4,23 @@ import Motion from "./motion";
 export default function Welcome() {
   return (
     <div>
-      <div className="w-full flex flex-col justify-center items-center ">
-        <h1 className="font-bold text-[25px] text-amber-900">Welcome to</h1>
-        <h1 className="font-bold text-[40px] ">Sopai Coffee Shop</h1>
+      <div className="w-full flex flex-col justify-center items-center mx-auto">
+        <h1 className="font-bold text-[20px] text-amber-900">Welcome to</h1>
+        <h2 className="font-bold md:text-[40px] text-[35px]">Sopai Coffee Shop</h2>
       </div>
-      <div className="w-full flex flex-col justify-center items-center mt-6">
+      <div className="md:w-full flex flex-col justify-center items-center mt-6 text-[15px] ml-5 mr-5">
         <p>
           Nam rhoncus risus ac nisl convallis, id pretium sapien molestie.
-          Vivamus lobortis at dui nec tincidunt. Pellentesque pellentesque{" "}
+          Vivamus lobortis at dui nec tincidunt. Pellentesque pellentesque
         </p>
         <p>
           egestas leo, eget commodo elit imperdiet at. Nam elementum posuere
           felis eget fermentum.
         </p>
       </div>
-      <div className="flex gap-9 mt-9">
+      <div className="lg:flex gap-9 mt-9">
         <Motion>
-        <div className="flex flex-col w-[400px] h-[500px] gap-2">
+        <div className="flex flex-col md:w-[400px] md:h-[500px] gap-2 w-[350px] mx-auto">
           <Image
             // loading="lazy" untuk membuat konten 
             src={"/carousel1.jpg"}
@@ -36,7 +36,7 @@ export default function Welcome() {
         </div>
         </Motion>
         <Motion>
-        <div className="flex flex-col w-[400px] h-[500px] gap-2">
+        <div className="flex flex-col md:w-[400px] md:h-[500px] gap-2 w-[350px] mx-auto">
           <Image
             src={"/carousel2.jpg"}
             alt="Image 2"
@@ -51,7 +51,7 @@ export default function Welcome() {
         </div>
         </Motion>
         <Motion>
-        <div className="flex flex-col w-[400px] h-[500px] gap-2">
+        <div className="flex flex-col md:w-[400px] md:h-[500px] gap-2 w-[350px] mx-auto">
           <Image
             src={"/carousel3.jpg"}
             alt="Image 3"

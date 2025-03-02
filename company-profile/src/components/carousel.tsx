@@ -19,7 +19,7 @@ export default function CarouselDefault() {
       ]}>
       <CarouselContent>
         <CarouselItem >
-          <Image className="w-full md:h-[900px] xs:h-[300px] h-[1000px] xs:w-full"
+          <Image className="w-full md:h-[900px] xs:h-[300px] h-[500px]"
             src={"/background.jpg"}
             alt="Image 1"
             height={300}
@@ -27,7 +27,7 @@ export default function CarouselDefault() {
             />
         </CarouselItem>
         <CarouselItem >
-          <Image className="w-full md:h-[900px] xs:h-[300px] h-[1000px] xs:w-full"
+          <Image className="w-full md:h-[900px] xs:h-[300px] h-[500px] xs:w-full"
             src={"/backgorund2.jpg"}
             alt="Image 2"
             height={300}
@@ -35,7 +35,7 @@ export default function CarouselDefault() {
             />
         </CarouselItem>
         <CarouselItem >
-          <Image className="w-full md:h-[900px] xs:h-[300px] h-[1000px] xs:w-full"
+          <Image className="w-full md:h-[900px] xs:h-[300px] h-[500px] xs:w-full"
             src={"/background3.jpg"}
             alt="Image 3"
             height={300}

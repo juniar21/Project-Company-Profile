@@ -23,14 +23,14 @@ export default function Navbar() {
 
       {/* Navigation Links (Desktop & Mobile) */}
       <div
-        className={`absolute top-[100px] left-0 w-full md:mt-[80px] md:static md:flex md:w-auto md:gap-9 h-auto md:h-[100px] p-4 md:p-0 shadow-md md:shadow-none transition-all duration-300 ${
+        className={`absolute z-10 top-[100px] left-0 w-full md:mt-[80px] max-sm:bg-black md:static md:flex md:w-auto md:gap-9 h-auto md:h-[100px] p-4 md:p-0 shadow-md md:shadow-none transition-all duration-300 ${
           isOpen ? "block" : "hidden"
         } md:flex`}
       >
         <Link href={"/"} className="block py-2 md:py-0 hover:border-b-2">HOME</Link>
         <Link href={"/about"} className="block py-2 md:py-0 hover:border-b-2">ABOUT US</Link>
         <Link href={"/gallery"} className="block py-2 md:py-0 hover:border-b-2">GALLERY</Link>
-        <Link href={"/contact"} className="block py-2 md:py-0 hover:border-b-2">CONTACT</Link>
+        <Link href={"/kontak"} className="block py-2 md:py-0 hover:border-b-2">CONTACT</Link>
       </div>
 
       {/* Explore Now Button (Hidden in Mobile) */}
