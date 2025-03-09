@@ -1,7 +1,5 @@
-import Aboutus from "@/components/aboutus";
-import Footer from "@/components/footer";
 import Hero from "@/components/hero";
-import Welcome from "@/components/welcome";
+import Welcome from "@/app/home/page";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -12,18 +10,17 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div>
-      <div>
-        <Hero />
-      </div>
-      <div className="w-full flex justify-center items-center mt-[50px]">
-        <Welcome />
-      </div>
-      <div>
-        <Aboutus />
-      </div>
-      <div>
-        <Footer />
+    <div className="container mx-auto">
+      <div className="p-4">
+        <div>
+          <div className="w-full flex justify-center items-center mt-[30px]">
+            <Welcome />
+          </div>
+          <div>
+            <Hero />
+          </div>
+          <div></div>
+        </div>
       </div>
     </div>
   );
